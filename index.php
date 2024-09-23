@@ -812,12 +812,12 @@
 						<h2 class="sec-hed pt-5">Get In Touch with us</h2>
 						<form class="widget-contact-form" data-success-message-delay="40000" novalidate action="include/contact-form.php" method="POST" style="font-family: lintel;">
 							<p><?php if ($_SESSION["form_submit"] == 'success') {
-									echo "Email Successfully Sent!";
-									session_destroy();
-								} elseif ($_SESSION["form_submit"] == 'error') {
-									echo "Some Server Error Occurs";
-									session_destroy();
-								} ?></p>
+										echo "Email Successfully Sent!";
+										session_destroy();
+									} elseif ($_SESSION["form_submit"] == 'error') {
+										echo "Some Server Error Occurs";
+										session_destroy();
+									} ?></p>
 							<input type="hidden" name="form_type" class="form-control input-field" value="contact">
 							<div class="d-md-flex justify-content-between ">
 								<div class="col-md-3">
